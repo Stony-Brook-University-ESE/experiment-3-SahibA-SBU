@@ -1,9 +1,11 @@
 #include <stdio.h>
+//we concluded that the program works correctly 
 
 int main() {
     int n = 1000;
     int matrix[n][n];
 
+    
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             matrix[i][j] = i * n + j + 1;
